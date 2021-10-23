@@ -1,7 +1,8 @@
 body {
     background: #151515;
     position: relative;
-    height: 4187px; 
+    height: 1350px; 
+
 }
 
 ::-webkit-scrollbar {
@@ -67,18 +68,7 @@ height: 281px;
     margin: 0px; 
 }
 
-.main p {
-    position: absolute;
-    width: 41px;
-    height: 30px;
-    left: 663px;
-    top: 205px;
-    font-family: "Jeko-Bold", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 30px;
-    margin: 0px;    
+.main numb  {
     color: #D13434;
 }
 
@@ -115,11 +105,9 @@ h2 {
     font-weight: 600;
     font-size: 18px;
     line-height: 24px;
-    /* identical to box height, or 133% */
-    padding-left: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
     letter-spacing: -0.002em;
     color: #000000;
     transition: 0.3s linear;
@@ -327,4 +315,114 @@ h2 {
     height: 68px;
     left: 47px;
     top: 183px;
+}
+
+@media only screen and (max-width:393px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .logo {
+        left: 20px;
+    }
+
+    .logo p{
+        display: none;
+    }
+
+    .logo img {
+        position: absolute;
+        width: 58px;
+        height: 54px;
+        left: -5px;
+        top: 30px;
+    }
+
+    .main h1 {
+        position: absolute;
+        width: 353px;
+        height: 61px;
+        left: 20px;
+        top: 147px;
+    }
+
+    .main h2 {
+        position: absolute;
+        width: 353px;
+        height: 108px;
+        left: 20px;
+        top: 230px;        
+    }
+
+    .btn {
+        position: absolute;
+        width: 354px;
+        height: 60px;
+        left: 20px;
+        top: 666px;
+        text-align: center;    
+    }
+
+    .main img {
+        position: absolute;
+        width: 380px;
+        height: 147px;
+        left: 25px;
+        top: 466px;        
+    }
+
+    .how-to-buy {
+        left: 55px;
+        top: 832px;
+    }
+
+    .how-to-buy h1 {
+        position: absolute;
+        width: 284px;
+        height: 30px;
+        left: 0px;
+        top: 0px;
+    }
+
+    .block1 {
+        position: absolute;
+        width: 282px;
+        height: 307px;
+        left: 2px;
+        top: 83px;
+        border-radius: 40px 40px 0px 0px;
+    }
+
+    .block3 {
+        width: 282px;
+        height: 307px;
+        left: 2px;
+        top: 410px;
+        border-radius: 0px;
+    }
+
+    .block2 {
+        width: 282px;
+        height: 307px;
+        left: 2px;
+        top: 737px; 
+        border-radius: 0px;
+    }
+
+    .block4 {
+        width: 282px;
+        height: 307px;
+        left: 2px;
+        top: 1064px;
+        border-radius: 0px;
+    }
+
+    .block5 {
+        width: 282px;
+        height: 307px;
+        left: 2px;
+        top: 1391px;
+        border-radius: 0px 0px 40px 40px;
+    }
 }

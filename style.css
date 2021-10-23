@@ -1,0 +1,330 @@
+body {
+    background: #151515;
+    position: relative;
+    height: 4187px; 
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face {
+    font-family: Jeko-Bold;
+    src: url(Jeko-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: Jeko-Medium;
+    src: url(Jeko-Medium.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url(Gilroy-Regular.ttf) format("truetype");
+}
+
+.logo {
+    position: absolute;
+    width: 284px;
+    height: 70px;
+    left: 818px;
+    top: 30px;    
+    display: flex;
+    margin: 0px;
+}
+
+.logo p {
+    font-family: "Gilroy", sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    padding-right: 32px;
+    padding-left: 32px;  
+    color: #C7C9CF;
+}
+
+h1 {
+    font-family: "Jeko-Bold", sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.main {
+position: absolute;
+width: 1050px;
+height: 281px;
+}
+
+.main h1 {
+    position: absolute;
+    width: 429px;
+    height: 57px;
+    left: 492px;
+    top: 175px;
+    color: #ffffff;   
+    margin: 0px; 
+}
+
+.main p {
+    position: absolute;
+    width: 41px;
+    height: 30px;
+    left: 663px;
+    top: 205px;
+    font-family: "Jeko-Bold", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0px;    
+    color: #D13434;
+}
+
+h2 {
+    font-family: "Gilroy", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.main h2 {
+    position: absolute;
+    width: 360px;
+    height: 108px;
+    left: 492px;
+    top: 262px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.btn {
+    position: absolute;
+    width: 200px;
+    height: 56px;
+    left: 492px;
+    top: 400px;
+    background: linear-gradient(94.48deg, #96BAFF 0%, #587DC1 100%);
+    box-shadow: 0px 0px 30px rgba(82, 110, 183, 0.8), inset 0px 4px 19px rgba(255, 255, 255, 0.35);
+    border-radius: 8px;
+    border: none;   
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.002em;
+    color: #000000;
+    transition: 0.3s linear;
+}
+
+.btn:hover {
+    background: linear-gradient(94.48deg, #96FFA0 0%, #58C188 100%);
+    box-shadow: 0px 0px 30px rgba(150, 255, 160, 0.8), inset 0px 4px 19px rgba(255, 255, 255, 0.35);
+}
+
+.main img {
+    position: absolute;
+    width: 562px;
+    height: 217px;
+    left: 980px;
+    top: 192px;
+}
+
+.how-to-buy {
+    position: absolute;
+    width: 886px;
+    height: 746px;
+    left: 517px;
+    top: 537px;
+    margin: 0px;    
+}
+
+.how-to-buy h1 {
+    color: #EFEFEF;
+    position: absolute;
+    width: 284px;
+    height: 30px;
+    left: 301px;
+    top: 0px;   
+}
+
+.block1 {
+    position: absolute;
+    width: 282px;
+    height: 307px;
+    left: 0px;
+    top: 112px;
+    background: #222222;
+    border-radius: 40px 40px 0px 40px;
+}
+
+.block2 {
+    position: absolute;
+    width: 282px;
+    height: 307px;
+    left: 302px;
+    top: 112px;  
+    background: #222222;
+    border-radius: 40px 40px 0px 0px;
+}
+
+.block3 {
+    position: absolute;
+    width: 282px;
+    height: 307px;
+    left: 604px;
+    top: 112px;
+    background: #222222;
+    border-radius: 40px 40px 40px 0px;
+}
+
+.block4 {
+    position: absolute;
+    width: 282px;
+    height: 307px;
+    left: 151px;
+    top: 439px;
+    background: #222222;
+    border-radius: 40px 0px 40px 40px;   
+}
+
+.block5 {
+    position: absolute;
+    width: 282px;
+    height: 307px;
+    left: 453px;
+    top: 439px;
+    background: #222222;
+    border-radius: 0px 40px 40px 40px;
+}
+
+.green-block {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 106px;
+    top: 56px;
+    background: linear-gradient(134.59deg, #52B756 0%, #208424 100.72%);
+    box-shadow: 0px 0px 30px rgba(82, 183, 86, 0.8), inset 0px 4px 19px rgba(255, 255, 255, 0.35);
+    border-radius: 15px;
+}
+
+.blue-block {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 106px;
+    top: 56px;
+    background: linear-gradient(134.59deg, #526EB7 0%, #204884 100.72%);
+    box-shadow: 0px 0px 30px rgba(82, 110, 183, 0.8), inset 0px 4px 19px rgba(255, 255, 255, 0.35);
+    border-radius: 15px;
+}
+
+.yellow-block {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 106px;
+    top: 56px;
+    background: linear-gradient(134.59deg, #B7A752 0%, #848020 100.72%);
+    box-shadow: 0px 0px 30px rgba(183, 167, 82, 0.8), inset 0px 4px 19px rgba(255, 255, 255, 0.35);
+    border-radius: 15px;
+} 
+
+.block1 img {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 18px;
+    top: 18px;                                                                      
+}
+
+.block2 img {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 18px;
+    top: 18px;                                                                      
+}
+
+.block3 img {
+    position: absolute;
+    height: 34px;
+    width: 34px;
+    left: 18px;
+    top: 18px;                                                                     
+}
+
+.block4 img {
+    position: absolute;
+    height: 34px;
+    width: 34px;
+    left: 18px;
+    top: 18px;                                                                     
+}
+
+.block5 img {
+    position: absolute;
+    height: 38px;
+    width: 38px;
+    left: 16px;
+    top: 14px;                                                                     
+}
+
+.how-to-buy p {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.block1 p {
+    position: absolute;
+    width: 188px;
+    height: 68px;
+    left: 47px;
+    top: 183px;
+}
+
+.block2 p {
+    position: absolute;
+    width: 164px;
+    height: 68px;
+    left: 59px;
+    top: 183px;
+}
+
+.block3 p {
+    position: absolute;
+    width: 188px;
+    height: 83px;
+    left: 47px;
+    top: 168px;
+}
+
+.block4 p {
+    position: absolute;
+    width: 188px;
+    height: 68px;
+    left: 47px;
+    top: 183px;
+}
+
+.block5 p {
+    position: absolute;
+    width: 188px;
+    height: 68px;
+    left: 47px;
+    top: 183px;
+}

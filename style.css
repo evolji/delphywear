@@ -2,7 +2,7 @@ body {
     background: #151515;
     position: relative;
     height: 1350px; 
-
+    width: 1920px;
 }
 
 ::-webkit-scrollbar {
@@ -321,6 +321,7 @@ h2 {
 
     body {
         overflow-x: hidden;
+        width: 393px;
     }
 
     .logo {
